@@ -1,7 +1,7 @@
 Build REST API with Go, PostgreSQL, and GoLand
 
 ### License
-Copyright 2019 Sergey Kozlovskiy
+Copyright 2022 Sergey Kozlovskiy
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
