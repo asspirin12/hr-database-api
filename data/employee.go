@@ -17,17 +17,12 @@ const (
 )
 
 type Employee struct {
-	Id int `json:"id"`
-
-	FirstName string `json:"first_name"`
-
-	LastName string `json:"last_name"`
-
+	Id         int    `json:"id"`
+	FirstName  string `json:"first_name"`
+	LastName   string `json:"last_name"`
 	Department string `json:"department"`
-
-	Email string `json:"email,omitempty"`
-
-	DateHired string `json:"date_hired"`
+	Email      string `json:"email,omitempty"`
+	DateHired  string `json:"date_hired"`
 }
 
 // ConnectDatabase checks the connection to the database
