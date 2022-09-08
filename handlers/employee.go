@@ -12,7 +12,6 @@ type Employees struct{}
 func (e Employees) ServeHTTP(rw http.ResponseWriter, r *http.Request) {
 	if r.URL.Path == "/employees" {
 		if r.Method == http.MethodGet {
-			//rw.Write([]byte(("This is hr-database-api")))
 			e.getEmployees(rw, r)
 		} else {
 			rw.WriteHeader(http.StatusMethodNotAllowed)
